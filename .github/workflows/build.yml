@@ -11,8 +11,6 @@ jobs:
       matrix:
         targetPlatform:
           - WebGL # WebGL.
-    outputs: 
-      output1: ${{ steps.
     steps:
       - uses: actions/checkout@v2
         with:
